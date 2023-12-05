@@ -58,7 +58,6 @@ def concat_map_lists(fst, snd):
     good = []
     for map_fst in fst.maps:
         good = good + concat_map_to_list(map_fst, snd)
-    # print(good)
     return map_list(good)
 
 def concat_map_to_list(mp, list):
@@ -72,12 +71,8 @@ def concat_map_to_list(mp, list):
             if concatted is not None:
                 good.append(concatted)
             new_in_progress = new_in_progress + leftovers
-            # for k in leftovers:
-            #     new_in_progress.append(k)
         in_progress = new_in_progress
     good = good + new_in_progress
-    # for k in new_in_progress:
-    #     good.append(k)
     return good
 
 def concat_maps(fst: map_struct, snd: map_struct):
@@ -90,15 +85,9 @@ def concat_maps(fst: map_struct, snd: map_struct):
 
     if start_of_overlap <= end_of_overlap:
         concatted = map_struct(snd.get_conversion(start_of_overlap), start_overlap_src_equiv, end_of_overlap - start_of_overlap + 1)
-        # if concatted.lenst == 0:
-            # print("Zero!")
         if start_of_overlap > fst.dst:
-            # if start_overlap_src_equiv - fst.src == 0:
-                # print("Zero a!")
             leftovers.append(map_struct(fst.dst, fst.src, start_overlap_src_equiv - fst.src))
         if end_of_overlap < fst.largest_dst:
-            # if fst.largest_src - end_overlap_src_equiv == 0:
-                # print("Zero b!")
             leftovers.append(map_struct(fst.dst + end_overlap_src_equiv-fst.src + 1, end_overlap_src_equiv + 1, fst.largest_src - end_overlap_src_equiv))
     else:
         leftovers.append(fst)
@@ -122,9 +111,6 @@ inp = f.read()
 map_batches = re.split(r"^.+-to-.+ map:\n", inp, flags=re.M)
 f.close()
 
-# print(map_batches)
-# for batch in map_batches:
-#     print(batch.split("\n")[0])
 
 map_lists = []
 end_scores = []
@@ -146,11 +132,8 @@ for i in range(0, len(map_lists)):
 curr_maps.sanity_check(100)
 # print(curr_maps.maps)
 
-# Testing something
+# Seeds
 seeds = [int(v) for v in map_batches[0].split()[1:]]
-# for seed in seeds:
-#     val = curr_maps.get_conversion(seed)
-#     print(val) 
 
 seed_list_tmp = []
 for i in range(0, len(seeds)//2):
@@ -163,61 +146,4 @@ for map in seed_list.maps:
     if map.dst < min:
         min = map.dst
 print(min)
-# print(seed_list.maps)
-# # Making seeds
-# for k in range(0, len(seed_base)//2):
-#     base = seed_base[2*k]
-#     length = seed_base[2*k+1]
-#     for i in range(seed_base[2*k], seed_base[2*k] + seed_base[2*k+1] - 1):
-#         val = i
-#         # print(val)
-#         for map in maps:
-#             val = get_pair(val, map)
-#         if val < current_best:
-#             current_best = val
-#             print(current_best)
-#     print(k)
 
-
-
-# # Seeds
-# seed_base = [int(v) for v in map_batches[0].split()[1:]]
-# print("seeds:", len(seed_base))
-# seeds = []
-# current_best = sys.maxsize
-# for k in range(0, len(seed_base)//2):
-#     base = seed_base[2*k]
-#     length = seed_base[2*k+1]
-#     for i in range(seed_base[2*k], seed_base[2*k] + seed_base[2*k+1] - 1):
-#         val = i
-#         # print(val)
-#         for map in maps:
-#             val = get_pair(val, map)
-#         if val < current_best:
-#             current_best = val
-#             print(current_best)
-#     print(k)
-# print("total seeds", len(seeds))
-
-# for seed in seeds:
-#     val = int(seed)
-#     print(val)
-#     for map in maps:
-#         val = get_pair(val, map)
-#         # print(f"\t{val}")
-#     # print(seed, val)
-#     end_scores.append(val)
-# print(end_scores)
-
-
-
-# for seed in seeds:
-#     val = int(seed)
-#     # print(val)
-#     for map in maps:
-#         val = get_pair(val, map)
-#         # print(f"\t{val}")
-#     # print(seed, val)
-#     end_scores.append(val)
-
-# print(current_best)
