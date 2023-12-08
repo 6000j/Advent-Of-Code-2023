@@ -1,5 +1,4 @@
 # Day 8 problem 2
-import collections
 class node_p:
     def __init__(self, line) -> None:
         parts = line.strip().split(' = ')
@@ -111,46 +110,16 @@ current_node_loops = [get_node_loop_stats(nd, instruction_list) for nd in curren
 # print(current_node_loops)
 
 print("made starting node list! It has size", len(current_nodes))
-# current_to_check = range(0, pow(10, 10))
-# print("made the list to check!")
 
 pogged_values = None
 for ilp in range(0, len(current_node_loops)):
     lp = current_node_loops[ilp]
     if ilp == 0:
         pogged_values = lp.get_pogged_values_up_to(goal)
-        # lp.get_pogged_values_up_to(100000)
     else:
         pogged_values = lp.get_pogged_values_up_to(goal, pogged_values)
     if pogged_values == []:
         print("something has gone wrong at ilp", ilp)
     print("Done step", ilp)
 
-# print(pogged_values)
 print(min(pogged_values))
-#     for k in current_to_check:
-#         if lp.get_nth_step_endpt(k):
-#             new_to_check.append(k)
-#     current_to_check = new_to_check
-#     print("Done a node!")
-# print(min(current_to_check))
-
-
-# steps = 0
-# done = False
-# while not done:
-#     for i in range(0, len(instruction_list)):
-#         done = True
-#         for k in range(0, len(current_nodes)):
-#             current_nodes[k] = next_node(current_nodes[k], instruction_list[i])
-#             # if current_nodes[k].is_end:
-#                 # print('a node has made it to the water after', steps+1, 'steps')
-#             done = (current_nodes[k].is_end and done)
-            
-#         steps = steps + 1
-#         if steps % 100000 == 0:
-#             print("Done", steps, "steps")
-#         if done:
-#             break
-
-# print(steps)
