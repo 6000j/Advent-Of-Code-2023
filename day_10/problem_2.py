@@ -144,7 +144,7 @@ def get_enclosed(pipe_map, loop):
     parts_list = ['-', '|', 'F', 'J', '7', 'L']
     good_map = find_connecting_tiles_from_the_start(pipe_map, fix_map=True)
     larger_map = create_larger_map(good_map, loop)
-
+    print_nice_contained(larger_map)
     x_len = len(larger_map)
     y_len = len(larger_map[0])
     for x in range(x_len):
@@ -202,7 +202,7 @@ def print_nice_contained(contained):
 
 
 f = open("input_1.txt", 'r')
-# f = open("test_input.txt", 'r')
+f = open("test_input.txt", 'r')
 lines = f.readlines()
 f.close()
 
