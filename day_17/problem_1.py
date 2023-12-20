@@ -10,6 +10,14 @@ seen_with = {}
 
 # max_steps = 500
 
+class Node:
+    def __init__(self, location, direct, moves_in_direction, cost) -> None:
+        self.location = location
+        self.direct = direct
+        self.moves_in_direction = moves_in_direction
+        self.cost = cost
+        self.adjacent_nodes = []
+        self.distance = 100000
 
 # Taken from https://www.geeksforgeeks.org/python-transpose-elements-of-two-dimensional-list/
 def transpose(inp):
@@ -214,6 +222,22 @@ def heat_map(location, direct, moves_in_direction, running_total, start_of=False
                     heat_map(move_forwards_2(location, c_direct), c_direct, 1, score)
 
         return None
+
+
+def djikstras(node_map: [Node], start_nd, end_nd):
+    curr_node = None
+    # really bad way of finding the starting node
+    for nd in node_map:
+        if nd == start_nd:
+            nd.score = 0
+            curr_node = nd
+            break
+    
+    while curr_node != end_nd:
+        # do the dance
+        pass
+    pass
+            
 
 
 # ???
