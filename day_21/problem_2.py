@@ -96,7 +96,7 @@ Here's the idea:
 - So, we want to look at how long it takes us to get to various places I think?
 '''
 num_steps = 26501365
-num_steps = 22
+num_steps = 5
 # This is the number of loops we do from the start to another start in a straight line
 num_borders = num_steps // x_len
 num_borders = max(num_borders-1, 0)
@@ -128,10 +128,23 @@ for i in range(num_remaining_steps):
     new_tiles_at.difference_update(bad_tiles)
     tiles_at = new_tiles_at
 
-top_left_count = len([[lc] for lc in tiles_at if (lc[0] < start_tile[0] and lc[1] < start_tile[1])])
-top_right_count = len([[lc] for lc in tiles_at if (lc[0] < start_tile[0] and lc[1] > start_tile[1])])
-bottom_left_count = len([[lc] for lc in tiles_at if (lc[0] > start_tile[0] and lc[1] < start_tile[1])])
-bottom_right_count = len([[lc] for lc in tiles_at if (lc[0] > start_tile[0] and lc[1] > start_tile[1])])
+# top left
+top_left_batch = [lc for lc in tiles_at if (lc[0] < start_tile[0] and lc[1] < start_tile[1])]
+# print(top_left_batch)
+top_left_count = len(top_left_batch)
+top_left_overlap_count = len(set(top_left_batch).intersection(set([(lc[0]-x_len, lc[1]+y_len) for lc in top_left_batch])))
+# top right
+top_right_batch = [lc for lc in tiles_at if (lc[0] < start_tile[0] and lc[1] > start_tile[1])]
+top_right_count = len(top_right_batch)
+top_right_overlap_count = len(set(top_right_batch).intersection(set([(lc[0]+x_len, lc[1]+y_len) for lc in top_right_batch])))
+# bottom left
+bottom_left_batch = [lc for lc in tiles_at if (lc[0] > start_tile[0] and lc[1] < start_tile[1])]
+bottom_left_count = len(bottom_left_batch)
+bottom_left_overlap_count = len(set(bottom_left_batch).intersection(set([(lc[0]-x_len, lc[1]-y_len) for lc in bottom_left_batch])))
+# bottom right
+bottom_right_batch = [lc for lc in tiles_at if (lc[0] > start_tile[0] and lc[1] > start_tile[1])]
+bottom_right_count = len(bottom_right_batch)
+bottom_right_overlap_count = len(set(bottom_right_batch).intersection(set([(lc[0]+x_len, lc[1]-y_len) for lc in bottom_right_batch])))
 print("Top Left:", top_left_count)
 print("Top Right:", top_right_count)
 print("Bottom Left:", bottom_left_count)
@@ -145,7 +158,8 @@ full_squares_cover = (((x_len-1)*(y_len-1)-len(bad_tiles))*num_full_squares)/2
 total += full_squares_cover
 # print("Just in full squares:", total)
 # Now we're going to add the number of diagonals:
-from_diagonals = (num_borders+2)*(top_left_count + top_right_count + bottom_left_count + bottom_right_count)
+from_diagonals = ((num_borders+2 if num_borders != 0 else 1))*(top_left_count + top_right_count + bottom_left_count + bottom_right_count)
+from_diagonals -= (num_borders+1 if num_borders != 0 else 0)*(top_left_overlap_count + top_right_overlap_count + bottom_left_overlap_count + bottom_right_overlap_count)
 total += from_diagonals
 # And now we have to calculate our scores on the lines themselves
 # How many lines do we have???

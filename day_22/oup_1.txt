@@ -1,0 +1,474 @@
+[<Start: (1, 0, 1), End: (1, 2, 1), Axis: y>, <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>, <Start: (0, 2, 3), End: (2, 2, 3), Axis: x>, <Start: (0, 0, 4), End: (0, 2, 4), Axis: y>, <Start: (2, 0, 5), End: (2, 2, 5), Axis: y>, <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>, <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>]
+[<Start: (1, 0, 1), End: (1, 2, 1), Axis: y>, <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>, <Start: (0, 2, 3), End: (2, 2, 3), Axis: x>, <Start: (0, 0, 4), End: (0, 2, 4), Axis: y>, <Start: (2, 0, 5), End: (2, 2, 5), Axis: y>, <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>, <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>]
+settled at <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+<Start: (0, 0, 1), End: (2, 0, 1), Axis: x> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 x y
+	 False True True
+	 True True True True True True
+	 True
+hi
+<Start: (0, 0, 1), End: (2, 0, 1), Axis: x> ,  <Start: (0, 2, 3), End: (2, 2, 3), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 0, 1), End: (2, 0, 1), Axis: x> ,  <Start: (0, 0, 4), End: (0, 2, 4), Axis: y>
+	 x y
+	 True True False
+	 True True True True False False
+	 False
+<Start: (0, 0, 1), End: (2, 0, 1), Axis: x> ,  <Start: (2, 0, 5), End: (2, 2, 5), Axis: y>
+	 x y
+	 False True False
+	 True True True True False False
+	 False
+<Start: (0, 0, 1), End: (2, 0, 1), Axis: x> ,  <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 0, 1), End: (2, 0, 1), Axis: x> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 x z
+	 False False False
+	 True True False False False False
+	 False
+settled at <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+<Start: (0, 2, 2), End: (2, 2, 2), Axis: x> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 x y
+	 False False False
+	 True True True True False False
+	 False
+<Start: (0, 2, 2), End: (2, 2, 2), Axis: x> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 x x
+	 True False True
+	 True True False False True True
+	 False
+<Start: (0, 2, 2), End: (2, 2, 2), Axis: x> ,  <Start: (0, 0, 4), End: (0, 2, 4), Axis: y>
+	 x y
+	 True False False
+	 True True True True False False
+	 False
+<Start: (0, 2, 2), End: (2, 2, 2), Axis: x> ,  <Start: (2, 0, 5), End: (2, 2, 5), Axis: y>
+	 x y
+	 False False False
+	 True True True True False False
+	 False
+<Start: (0, 2, 2), End: (2, 2, 2), Axis: x> ,  <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 2, 2), End: (2, 2, 2), Axis: x> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 x z
+	 False False False
+	 True True False False False False
+	 False
+<Start: (0, 2, 1), End: (2, 2, 1), Axis: x> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 x y
+	 False False True
+	 True True True True True True
+	 True
+hi
+<Start: (0, 2, 1), End: (2, 2, 1), Axis: x> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 2, 1), End: (2, 2, 1), Axis: x> ,  <Start: (0, 0, 4), End: (0, 2, 4), Axis: y>
+	 x y
+	 True False False
+	 True True True True False False
+	 False
+<Start: (0, 2, 1), End: (2, 2, 1), Axis: x> ,  <Start: (2, 0, 5), End: (2, 2, 5), Axis: y>
+	 x y
+	 False False False
+	 True True True True False False
+	 False
+<Start: (0, 2, 1), End: (2, 2, 1), Axis: x> ,  <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 2, 1), End: (2, 2, 1), Axis: x> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 x z
+	 False False False
+	 True True False False False False
+	 False
+settled at <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+<Start: (0, 0, 3), End: (0, 2, 3), Axis: y> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 y y
+	 False True False
+	 False False True True False False
+	 False
+<Start: (0, 0, 3), End: (0, 2, 3), Axis: y> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 y x
+	 True True False
+	 True True True True False False
+	 False
+<Start: (0, 0, 3), End: (0, 2, 3), Axis: y> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 y x
+	 True False False
+	 True True True True False False
+	 False
+<Start: (0, 0, 3), End: (0, 2, 3), Axis: y> ,  <Start: (2, 0, 5), End: (2, 2, 5), Axis: y>
+	 y y
+	 False True False
+	 False False True True False False
+	 False
+<Start: (0, 0, 3), End: (0, 2, 3), Axis: y> ,  <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>
+	 y x
+	 True False False
+	 True True True True False False
+	 False
+<Start: (0, 0, 3), End: (0, 2, 3), Axis: y> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 y z
+	 False False False
+	 False False True True False False
+	 False
+<Start: (0, 0, 2), End: (0, 2, 2), Axis: y> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 y y
+	 False True False
+	 False False True True False False
+	 False
+<Start: (0, 0, 2), End: (0, 2, 2), Axis: y> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 y x
+	 True True True
+	 True True True True True True
+	 True
+hi
+<Start: (0, 0, 2), End: (0, 2, 2), Axis: y> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 y x
+	 True False True
+	 True True True True True True
+	 True
+hi
+<Start: (0, 0, 2), End: (0, 2, 2), Axis: y> ,  <Start: (2, 0, 5), End: (2, 2, 5), Axis: y>
+	 y y
+	 False True False
+	 False False True True False False
+	 False
+<Start: (0, 0, 2), End: (0, 2, 2), Axis: y> ,  <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>
+	 y x
+	 True False False
+	 True True True True False False
+	 False
+<Start: (0, 0, 2), End: (0, 2, 2), Axis: y> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 y z
+	 False False False
+	 False False True True False False
+	 False
+settled at <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+<Start: (2, 0, 4), End: (2, 2, 4), Axis: y> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 y y
+	 False True False
+	 False False True True False False
+	 False
+<Start: (2, 0, 4), End: (2, 2, 4), Axis: y> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 y x
+	 False True False
+	 True True True True False False
+	 False
+<Start: (2, 0, 4), End: (2, 2, 4), Axis: y> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 y x
+	 False False False
+	 True True True True False False
+	 False
+<Start: (2, 0, 4), End: (2, 2, 4), Axis: y> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 y y
+	 False True False
+	 False False True True False False
+	 False
+<Start: (2, 0, 4), End: (2, 2, 4), Axis: y> ,  <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>
+	 y x
+	 False False False
+	 True True True True False False
+	 False
+<Start: (2, 0, 4), End: (2, 2, 4), Axis: y> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 y z
+	 False False False
+	 False False True True False False
+	 False
+<Start: (2, 0, 3), End: (2, 2, 3), Axis: y> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 y y
+	 False True False
+	 False False True True False False
+	 False
+<Start: (2, 0, 3), End: (2, 2, 3), Axis: y> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 y x
+	 False True False
+	 True True True True False False
+	 False
+<Start: (2, 0, 3), End: (2, 2, 3), Axis: y> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 y x
+	 False False False
+	 True True True True False False
+	 False
+<Start: (2, 0, 3), End: (2, 2, 3), Axis: y> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 y y
+	 False True True
+	 False False True True True True
+	 False
+<Start: (2, 0, 3), End: (2, 2, 3), Axis: y> ,  <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>
+	 y x
+	 False False False
+	 True True True True False False
+	 False
+<Start: (2, 0, 3), End: (2, 2, 3), Axis: y> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 y z
+	 False False False
+	 False False True True False False
+	 False
+<Start: (2, 0, 2), End: (2, 2, 2), Axis: y> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 y y
+	 False True False
+	 False False True True False False
+	 False
+<Start: (2, 0, 2), End: (2, 2, 2), Axis: y> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 y x
+	 False True True
+	 True True True True True True
+	 True
+hi
+<Start: (2, 0, 2), End: (2, 2, 2), Axis: y> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 y x
+	 False False True
+	 True True True True True True
+	 True
+hi
+<Start: (2, 0, 2), End: (2, 2, 2), Axis: y> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 y y
+	 False True False
+	 False False True True False False
+	 False
+<Start: (2, 0, 2), End: (2, 2, 2), Axis: y> ,  <Start: (0, 1, 6), End: (2, 1, 6), Axis: x>
+	 y x
+	 False False False
+	 True True True True False False
+	 False
+<Start: (2, 0, 2), End: (2, 2, 2), Axis: y> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 y z
+	 False False False
+	 False False True True False False
+	 False
+settled at <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>
+<Start: (0, 1, 5), End: (2, 1, 5), Axis: x> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 x y
+	 False False False
+	 True True True True False False
+	 False
+<Start: (0, 1, 5), End: (2, 1, 5), Axis: x> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 1, 5), End: (2, 1, 5), Axis: x> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 1, 5), End: (2, 1, 5), Axis: x> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 x y
+	 True False False
+	 True True True True False False
+	 False
+<Start: (0, 1, 5), End: (2, 1, 5), Axis: x> ,  <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>
+	 x y
+	 False False False
+	 True True True True False False
+	 False
+<Start: (0, 1, 5), End: (2, 1, 5), Axis: x> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 x z
+	 False True False
+	 True True True True False False
+	 False
+<Start: (0, 1, 4), End: (2, 1, 4), Axis: x> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 x y
+	 False False False
+	 True True True True False False
+	 False
+<Start: (0, 1, 4), End: (2, 1, 4), Axis: x> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 1, 4), End: (2, 1, 4), Axis: x> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 1, 4), End: (2, 1, 4), Axis: x> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 x y
+	 True False False
+	 True True True True False False
+	 False
+<Start: (0, 1, 4), End: (2, 1, 4), Axis: x> ,  <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>
+	 x y
+	 False False False
+	 True True True True False False
+	 False
+<Start: (0, 1, 4), End: (2, 1, 4), Axis: x> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 x z
+	 False True False
+	 True True True True False False
+	 False
+<Start: (0, 1, 3), End: (2, 1, 3), Axis: x> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 x y
+	 False False False
+	 True True True True False False
+	 False
+<Start: (0, 1, 3), End: (2, 1, 3), Axis: x> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 1, 3), End: (2, 1, 3), Axis: x> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 x x
+	 True False False
+	 True True False False False False
+	 False
+<Start: (0, 1, 3), End: (2, 1, 3), Axis: x> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 x y
+	 True False True
+	 True True True True True True
+	 True
+hi
+<Start: (0, 1, 3), End: (2, 1, 3), Axis: x> ,  <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>
+	 x y
+	 False False True
+	 True True True True True True
+	 True
+hi
+<Start: (0, 1, 3), End: (2, 1, 3), Axis: x> ,  <Start: (1, 1, 8), End: (1, 1, 9), Axis: z>
+	 x z
+	 False True False
+	 True True True True False False
+	 False
+settled at <Start: (0, 1, 4), End: (2, 1, 4), Axis: x>
+<Start: (1, 1, 7), End: (1, 1, 8), Axis: z> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 z y
+	 True False False
+	 True True True True False False
+	 False
+<Start: (1, 1, 7), End: (1, 1, 8), Axis: z> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 z x
+	 False False False
+	 True True False False False False
+	 False
+<Start: (1, 1, 7), End: (1, 1, 8), Axis: z> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 z x
+	 False False False
+	 True True False False False False
+	 False
+<Start: (1, 1, 7), End: (1, 1, 8), Axis: z> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 z y
+	 False False False
+	 False False True True False False
+	 False
+<Start: (1, 1, 7), End: (1, 1, 8), Axis: z> ,  <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>
+	 z y
+	 False False False
+	 False False True True False False
+	 False
+<Start: (1, 1, 7), End: (1, 1, 8), Axis: z> ,  <Start: (0, 1, 4), End: (2, 1, 4), Axis: x>
+	 z x
+	 False True False
+	 True True True True False False
+	 False
+<Start: (1, 1, 6), End: (1, 1, 7), Axis: z> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 z y
+	 True False False
+	 True True True True False False
+	 False
+<Start: (1, 1, 6), End: (1, 1, 7), Axis: z> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 z x
+	 False False False
+	 True True False False False False
+	 False
+<Start: (1, 1, 6), End: (1, 1, 7), Axis: z> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 z x
+	 False False False
+	 True True False False False False
+	 False
+<Start: (1, 1, 6), End: (1, 1, 7), Axis: z> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 z y
+	 False False False
+	 False False True True False False
+	 False
+<Start: (1, 1, 6), End: (1, 1, 7), Axis: z> ,  <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>
+	 z y
+	 False False False
+	 False False True True False False
+	 False
+<Start: (1, 1, 6), End: (1, 1, 7), Axis: z> ,  <Start: (0, 1, 4), End: (2, 1, 4), Axis: x>
+	 z x
+	 False True False
+	 True True True True False False
+	 False
+<Start: (1, 1, 5), End: (1, 1, 6), Axis: z> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 z y
+	 True False False
+	 True True True True False False
+	 False
+<Start: (1, 1, 5), End: (1, 1, 6), Axis: z> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 z x
+	 False False False
+	 True True False False False False
+	 False
+<Start: (1, 1, 5), End: (1, 1, 6), Axis: z> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 z x
+	 False False False
+	 True True False False False False
+	 False
+<Start: (1, 1, 5), End: (1, 1, 6), Axis: z> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 z y
+	 False False False
+	 False False True True False False
+	 False
+<Start: (1, 1, 5), End: (1, 1, 6), Axis: z> ,  <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>
+	 z y
+	 False False False
+	 False False True True False False
+	 False
+<Start: (1, 1, 5), End: (1, 1, 6), Axis: z> ,  <Start: (0, 1, 4), End: (2, 1, 4), Axis: x>
+	 z x
+	 False True False
+	 True True True True False False
+	 False
+<Start: (1, 1, 4), End: (1, 1, 5), Axis: z> ,  <Start: (1, 0, 1), End: (1, 2, 1), Axis: y>
+	 z y
+	 True False False
+	 True True True True False False
+	 False
+<Start: (1, 1, 4), End: (1, 1, 5), Axis: z> ,  <Start: (0, 0, 2), End: (2, 0, 2), Axis: x>
+	 z x
+	 False False False
+	 True True False False False False
+	 False
+<Start: (1, 1, 4), End: (1, 1, 5), Axis: z> ,  <Start: (0, 2, 2), End: (2, 2, 2), Axis: x>
+	 z x
+	 False False False
+	 True True False False False False
+	 False
+<Start: (1, 1, 4), End: (1, 1, 5), Axis: z> ,  <Start: (0, 0, 3), End: (0, 2, 3), Axis: y>
+	 z y
+	 False False False
+	 False False True True False False
+	 False
+<Start: (1, 1, 4), End: (1, 1, 5), Axis: z> ,  <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>
+	 z y
+	 False False False
+	 False False True True False False
+	 False
+<Start: (1, 1, 4), End: (1, 1, 5), Axis: z> ,  <Start: (0, 1, 4), End: (2, 1, 4), Axis: x>
+	 z x
+	 False True True
+	 True True True True True True
+	 True
+hi
+settled at <Start: (1, 1, 5), End: (1, 1, 6), Axis: z>
+<Start: (0, 0, 2), End: (2, 0, 2), Axis: x> [<Start: (0, 0, 3), End: (0, 2, 3), Axis: y>, <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>]
+<Start: (0, 2, 2), End: (2, 2, 2), Axis: x> [<Start: (0, 0, 3), End: (0, 2, 3), Axis: y>, <Start: (2, 0, 3), End: (2, 2, 3), Axis: y>]
+<Start: (0, 0, 3), End: (0, 2, 3), Axis: y> [<Start: (0, 1, 4), End: (2, 1, 4), Axis: x>]
+<Start: (2, 0, 3), End: (2, 2, 3), Axis: y> [<Start: (0, 1, 4), End: (2, 1, 4), Axis: x>]
+<Start: (1, 1, 5), End: (1, 1, 6), Axis: z> []
+5

@@ -95,7 +95,7 @@ Here's the idea:
 - So, we want to look at how long it takes us to get to various places I think?
 '''
 num_steps = 26501365
-num_steps = 22
+num_steps = 5
 
 
 print(x_len, y_len)

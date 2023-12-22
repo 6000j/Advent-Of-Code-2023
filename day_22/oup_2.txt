@@ -1,0 +1,25 @@
+made bricks!
+0 bricks have fallen down
+7 Bricks have fallen down safely!
+[<Start: (0, 0, 2), End: (2, 0, 2), Axis: x>]
+[]
+[]
+[]
+[]
+[]
+[]
+[1]
+1
+[]
+1
+[]
+1
+[]
+1
+[]
+1
+[]
+1
+[]
+1
+1
